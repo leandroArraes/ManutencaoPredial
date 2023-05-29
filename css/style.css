@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@700&family=Roboto:wght@100&display=swap');   
+
+
+.Esquerda{
+    height: 665px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F4F6F9;
+    margin-bottom: 1px;
+}
+
+
+.logo{
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 191px;
+    top: 63px;
+    display: flex;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+
+.title-marca{
+  
+    font-family: 'PT Sans';
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    margin-bottom: 0px;
+    margin-top: 7px;
+
+    letter-spacing: -0.02em;
+
+    color: #5282F0;
+
+}
+
+
+.texto{
+    position: absolute;
+    width: 546px;
+    height: 96px;
+    left: 163px;
+    top: 226px;
+}
+
+.Direita{
+    height: 665px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F4F6F9;
+    margin-bottom: 1px;
+}
+
+.D-img{
+    position: absolute;
+    top: 312px;
+    right: 18px;
+}
+
+
+
+.title h1{
+   
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+    margin-bottom: 28px;
+     color: #333333;
+}
+
+
+.paragrafo p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 28px;
+    color: #4F4F4F;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 0, 0.5)), url(/imagens/f3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 665px;
+}
+
+
+.title2{
+    margin-top: 120px;
+    margin-left: 110px;
+}
+
+.title-2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+}
+
+.title3{
+    margin-top: 32px;
+    margin-left: 110px;   
+}
+
+.title-3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px; 
+    color: #333333;
+}
+
+.texto2{
+    margin-top: 24px;
+    margin-left: 110px;
+    
+   
+}
+
+.title4{
+    margin-top: 3px;
+    margin-left: 110px;
+}
+.container-4{
+    
+    margin-left: 160px;
+}
+
+
+
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-3b img {
+    width: 60%;
+    border-radius: 100%;
+    height: 60%;
+    box-sizing:content-box;
+    
+}
+
+.section-4{
+    background: #00ADEE;
+}
+
+.card-blue{ 
+    width: 311px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.title-blue-section{
+    margin-top: 76px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+
+.material-symbols-outlined {
+  color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+
+.card-1{
+    margin-bottom: 90px;
+}
+
+@media (max-width: 360px) {
+
+    .Esquerda{
+        height: 580px;
+        border-radius: 0px;
+
+    }
+
+    .logo{
+        /* Sports */
+        position: absolute;
+        height: 30px;
+        width: 120px;
+        left: 130px;
+        top: 34px;
+        border-radius: nullpx;
+
+    }
+    .logo h3{ 
+        
+     
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        font-weight: bold;
+
+        letter-spacing: -0.02em;
+
+        color: #5282F0;
+    }
+
+    .texto{
+        height: auto;
+        width: 320px;
+        left: 20px;
+        top: 150px;
+        border-radius: nullpx;
+
+    }
+
+    .texto img{
+        width: 100%;
+    }
+
+    .title h1{
+                    
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        
+            }
+            
+    .paragrafo {
+     margin-top: 40px;
+        
+    }
+
+    .paragrafo p {
+
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #4F4F4F;
+    }
+
+    .section2{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+
+   .section2b, .title2, .title3, .texto2, .title4{
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+   }
+   .section2b{
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .section--2{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .container-4{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    height: 120px;
+    margin-top: 24px;
+}
+
+.box-3{
+    width: 80%; 
+}
+
+.section-3{
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+}
+.section-3b{
+    height: 200px;
+    
+}
+
+.section-3b img{
+    
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    box-sizing:content-box;
+}
+.section-4{
+    height: 100%;
+    background: #FAFAFA;
+    color: #4F4F4F;
+}
+
+.card-blue{
+    color: #4F4F4F;
+}
+.icon{
+    color: #00ADEE;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.card-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.colum-1,.colum-2,.colum-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-blue-section{
+    color:  #333333;
+}
+
+}
